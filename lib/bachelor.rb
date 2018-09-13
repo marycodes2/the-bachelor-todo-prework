@@ -1,4 +1,4 @@
-data = { 
+'''data = { 
   "season 30": [
     {
       "name":      "Beth Smalls",
@@ -31,7 +31,7 @@ data = {
       "status":     "Eliminated Week 6"
     }
   ]
-}
+}'''
 def get_first_name_of_season_winner(data, season)
   return_value = "No winners this season!"
   data.each do |season_in_hash, contestant_array|
