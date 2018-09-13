@@ -63,7 +63,7 @@ def get_contestant_name(data, occupation)
   return_value
 end
 
-puts get_contestant_name(data, "Chiropractic Assistant")
+#puts get_contestant_name(data, "Chiropractic Assistant")
 
 def count_contestants_by_hometown(data, hometown)
   count_of_contestants_from_hometown = 0
