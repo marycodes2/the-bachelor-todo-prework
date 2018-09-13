@@ -1,4 +1,5 @@
 require "pry"
+
 '''data = { 
   "season 30": [
     {
@@ -38,6 +39,7 @@ def get_first_name_of_season_winner(data, season)
   data.each do |season_in_hash, contestant_array|
     if season_in_hash.to_s == season
       contestant_array.each do |contestant|
+        binding.pry
         if contestant[:status] == "Winner"
           winning_contestant = contestant[:name]
           winning_contestant = winning_contestant.split(" ")
