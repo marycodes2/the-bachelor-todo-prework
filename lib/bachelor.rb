@@ -48,7 +48,7 @@ def get_first_name_of_season_winner(data, season)
   return_value
 end
 
-puts get_first_name_of_season_winner(data, "season 30")
+#puts get_first_name_of_season_winner(data, "season 30")
 
 
 def get_contestant_name(data, occupation)
@@ -77,7 +77,7 @@ def count_contestants_by_hometown(data, hometown)
   count_of_contestants_from_hometown
 end
 
-puts count_contestants_by_hometown(data, "Denver, Colorado")
+#puts count_contestants_by_hometown(data, "Denver, Colorado")
 
 def get_occupation(data, hometown)
   return_value = "No contestants from tat hometown"
@@ -91,7 +91,7 @@ def get_occupation(data, hometown)
   return_value
 end
 
-puts get_occupation(data, "Denver, Colorado")
+#puts get_occupation(data, "Denver, Colorado")
 
 def get_average_age_for_season(data, season)
   array_of_ages = []
@@ -107,5 +107,5 @@ def get_average_age_for_season(data, season)
   average
 end 
 
-puts get_average_age_for_season(data, "season 30")
+#puts get_average_age_for_season(data, "season 30")
 
