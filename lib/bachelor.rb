@@ -40,7 +40,7 @@ def get_first_name_of_season_winner(data, season)
     if season_in_hash.to_s == season
       contestant_array.each do |contestant|
         binding.pry
-        if contestant[:status] == "Winner"
+        if contestant["status"] == "Winner"
           winning_contestant = contestant[:name]
           winning_contestant = winning_contestant.split(" ")
           return_value = winning_contestant[0]
